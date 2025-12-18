@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Large / generated artifacts (do not commit)
+Papers/
+docling_output/
+archive_non_micrographs/
+input_images/
+RAG_Corpus/
+rag_index/
+
+# Model/embedding artifacts
+*.pkl
+*.npy
+*.npz
+
+# Text RAG caches
+rag_text_cache/
+
+# Logs / caches
+*.log
+*_text_embeddings.cache.jsonl
+
+# Generated results
+vlm_results.jsonl
+input_vlm_results.jsonl
+*.jsonl
+
+
