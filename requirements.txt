@@ -1,0 +1,25 @@
+# Core (demo pipeline)
+numpy>=1.24
+pillow>=10.0
+matplotlib>=3.7
+openai>=1.40
+
+# PDF → text + figure crops (Docling + PDF renderer)
+docling
+pypdfium2>=4.30
+
+# Notebook demo (optional but recommended)
+jupyter>=1.0
+ipykernel>=6.0
+
+# ---------------------------
+# Optional: embedding extraction helpers in image_encoder/
+# (These are not required if you already have DINOv3 embeddings.)
+#
+# tqdm>=4.66
+# opencv-python>=4.9
+# torch>=2.2
+# torchvision>=0.17
+# transformers>=4.40
+# scikit-learn>=1.3
+
